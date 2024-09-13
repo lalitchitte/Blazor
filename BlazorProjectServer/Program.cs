@@ -11,6 +11,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHealthChecks();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
@@ -29,7 +30,10 @@ builder.Services.AddCors(options =>
         "AllowAll",
         builder =>
         {
-            builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+            builder
+                .WithOrigins("https://gaushala-atdbcsargub8b9fu.canadaeast-01.azurewebsites.net")
+                .AllowAnyMethod()
+                .AllowAnyHeader();
         }
     );
 });
@@ -39,12 +43,19 @@ var app = builder.Build();
 app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
     app.UseWebAssemblyDebugging();
 }
+else
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
+
+app.MapHealthChecks("/health");
 
 app.UseHttpsRedirection();
 app.UseBlazorFrameworkFiles();
