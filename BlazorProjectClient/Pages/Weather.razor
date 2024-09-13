@@ -45,11 +45,12 @@ else
     {
         try
         {
-            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast/GetWeatherForecast");
+            var res = await Http.GetFromJsonAsync<ApiResponse<WeatherForecast[]>>("WeatherForecast/GetWeatherForecast");
+            forecasts = res.Data;
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error fetching weather data: {ex.Message}");
+            Console.WriteLine($"Error fetching weather data on client: {ex.Message}");
         }
     }
 }

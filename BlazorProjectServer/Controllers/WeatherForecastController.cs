@@ -1,11 +1,16 @@
+using BlazorProjectServer.Data;
 using BlazorProjectSharedLibrary;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorProjectServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController(
+        ILogger<WeatherForecastController> _logger,
+        AppDbContext _dbcontext
+    ) : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
@@ -21,18 +26,18 @@ namespace BlazorProjectServer.Controllers
             "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet("GetWeatherForecast")]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
             try
             {
+                bool canConnect = await _dbcontext.Database.CanConnectAsync();
+
+                if (!canConnect)
+                {
+                    return StatusCode(500, "Unable to connect to the database.");
+                }
+
                 var forecast = Enumerable
                     .Range(1, 20)
                     .Select(index => new WeatherForecast
@@ -43,7 +48,13 @@ namespace BlazorProjectServer.Controllers
                     })
                     .ToArray();
 
-                return Ok(forecast);
+                var response = new
+                {
+                    Reason = "Database connected and data retrieved successfully.",
+                    Data = forecast
+                };
+
+                return Ok(response);
             }
             catch (Exception ex)
             {
