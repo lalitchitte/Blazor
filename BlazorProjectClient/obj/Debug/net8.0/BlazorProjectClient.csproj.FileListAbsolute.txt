@@ -1029,3 +1029,13 @@ D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\BlazorProjectClien
 D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\refint\BlazorProjectClient.dll
 D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\BlazorProjectClient.pdb
 D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\ref\BlazorProjectClient.dll
+D:\Dot Net\BlazorProject\BlazorProjectClient\bin\Debug\net8.0\wwwroot\_framework\BlazorProjectSharedLibrary.pdb
+D:\Dot Net\BlazorProject\BlazorProjectClient\bin\Debug\net8.0\wwwroot\_framework\BlazorProjectSharedLibrary.wasm
+D:\Dot Net\BlazorProject\BlazorProjectClient\bin\Debug\net8.0\wwwroot\_framework\BlazorProjectSharedLibrary.wasm.gz
+D:\Dot Net\BlazorProject\BlazorProjectClient\bin\Debug\net8.0\wwwroot\_framework\BlazorProjectSharedLibrary.pdb.gz
+D:\Dot Net\BlazorProject\BlazorProjectClient\bin\Debug\net8.0\BlazorProjectSharedLibrary.dll
+D:\Dot Net\BlazorProject\BlazorProjectClient\bin\Debug\net8.0\BlazorProjectSharedLibrary.pdb
+D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\webcil\BlazorProjectSharedLibrary.wasm
+D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\compressed\84k045ikgh.gz
+D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\compressed\efzxxr28rg.gz
+D:\Dot Net\BlazorProject\BlazorProjectClient\obj\Debug\net8.0\BlazorProjectClient.sourcelink.json

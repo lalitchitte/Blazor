@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LQ7xIcIMGhw2UYNKW8YGEClRG+lKPhD7SICpy3wc18Y=",
+  "Hash": "5vEQc5+c81gsz3XS/XV3ClqG0lkNwtZ4OZD2nUDYRoo=",
   "Source": "BlazorProjectClient",
   "BasePath": "/",
   "Mode": "Root",
@@ -91,6 +91,44 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\obj\\Debug\\net8.0\\webcil\\BlazorProjectClient.wasm"
+    },
+    {
+      "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorProjectSharedLibrary.pdb",
+      "SourceId": "BlazorProjectClient",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazorProjectSharedLibrary.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectSharedLibrary\\bin\\Debug\\net8.0\\BlazorProjectSharedLibrary.pdb"
+    },
+    {
+      "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorProjectSharedLibrary.wasm",
+      "SourceId": "BlazorProjectClient",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazorProjectSharedLibrary.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\obj\\Debug\\net8.0\\webcil\\BlazorProjectSharedLibrary.wasm"
     },
     {
       "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
@@ -4729,6 +4767,25 @@
       "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.wasm"
     },
     {
+      "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\obj\\Debug\\net8.0\\compressed\\84k045ikgh.gz",
+      "SourceId": "BlazorProjectClient",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazorProjectSharedLibrary.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorProjectSharedLibrary.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorProjectSharedLibrary.wasm"
+    },
+    {
       "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\obj\\Debug\\net8.0\\compressed\\87ielxez4j.gz",
       "SourceId": "BlazorProjectClient",
       "SourceType": "Computed",
@@ -5411,6 +5468,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm"
+    },
+    {
+      "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\obj\\Debug\\net8.0\\compressed\\efzxxr28rg.gz",
+      "SourceId": "BlazorProjectClient",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazorProjectSharedLibrary.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorProjectSharedLibrary.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorProjectSharedLibrary.pdb"
     },
     {
       "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\obj\\Debug\\net8.0\\compressed\\ek91jizy96.gz",
@@ -7919,25 +7995,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "BlazorProjectClient",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

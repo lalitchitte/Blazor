@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Dot Net\\BlazorProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorProjectClient\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E20C397-0FB9-4AEE-B023-7EC937AAF7E6}|BlazorProjectClient\\BlazorProjectClient.csproj|d:\\dot net\\blazorproject\\blazorprojectclient\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E20C397-0FB9-4AEE-B023-7EC937AAF7E6}|BlazorProjectClient\\BlazorProjectClient.csproj|solutionrelative:blazorprojectclient\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorProjectClient\\Program.cs",
-              "ToolTip": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Program.cs",
-              "RelativeToolTip": "BlazorProjectClient\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T13:04:09.162Z",
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorProjectClient\\Pages\\Weather.razor",
+              "ToolTip": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorProjectClient\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T10:17:59.63Z",
               "EditorCaption": ""
             }
           ]
