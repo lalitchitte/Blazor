@@ -37,24 +37,27 @@ namespace BlazorProjectServer.Controllers
                 {
                     return StatusCode(500, "Unable to connect to the database.");
                 }
-
-                var forecast = Enumerable
-                    .Range(1, 20)
-                    .Select(index => new WeatherForecast
-                    {
-                        Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                        TemperatureC = Random.Shared.Next(-20, 55),
-                        Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-                    })
-                    .ToArray();
-
-                var response = new
+                else
                 {
-                    Reason = "Database connected and data retrieved successfully.",
-                    Data = forecast
-                };
+                    var forecast = Enumerable
+                        .Range(1, 20)
+                        .Select(index => new WeatherForecast
+                        {
+                            Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                            TemperatureC = Random.Shared.Next(-20, 55),
+                            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                        })
+                        .ToArray();
 
-                return Ok(response);
+                    var response = new ApiResponse<WeatherForecast[]>
+                    {
+                        Reason =
+                            $"Database {canConnect} connected and data retrieved successfully.",
+                        Data = forecast
+                    };
+
+                    return Ok(response);
+                }
             }
             catch (Exception ex)
             {

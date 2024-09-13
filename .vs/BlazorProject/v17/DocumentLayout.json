@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Dot Net\\BlazorProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1FEDF251-0B50-4212-91F3-65E4FE6274A5}|BlazorProjectServer\\BlazorProjectServer.csproj|d:\\dot net\\blazorproject\\blazorprojectserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDF251-0B50-4212-91F3-65E4FE6274A5}|BlazorProjectServer\\BlazorProjectServer.csproj|solutionrelative:blazorprojectserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E20C397-0FB9-4AEE-B023-7EC937AAF7E6}|BlazorProjectClient\\BlazorProjectClient.csproj|d:\\dot net\\blazorproject\\blazorprojectclient\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E20C397-0FB9-4AEE-B023-7EC937AAF7E6}|BlazorProjectClient\\BlazorProjectClient.csproj|solutionrelative:blazorprojectclient\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEDF251-0B50-4212-91F3-65E4FE6274A5}|BlazorProjectServer\\BlazorProjectServer.csproj|d:\\dot net\\blazorproject\\blazorprojectserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDF251-0B50-4212-91F3-65E4FE6274A5}|BlazorProjectServer\\BlazorProjectServer.csproj|solutionrelative:blazorprojectserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEDF251-0B50-4212-91F3-65E4FE6274A5}|BlazorProjectServer\\BlazorProjectServer.csproj|d:\\dot net\\blazorproject\\blazorprojectserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDF251-0B50-4212-91F3-65E4FE6274A5}|BlazorProjectServer\\BlazorProjectServer.csproj|solutionrelative:blazorprojectserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,26 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dot Net\\BlazorProject\\BlazorProjectServer\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorProjectServer\\Program.cs",
+              "ToolTip": "D:\\Dot Net\\BlazorProject\\BlazorProjectServer\\Program.cs",
+              "RelativeToolTip": "BlazorProjectServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:29:43.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Dot Net\\BlazorProject\\BlazorProjectServer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "BlazorProjectServer\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "D:\\Dot Net\\BlazorProject\\BlazorProjectServer\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "BlazorProjectServer\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvzkAAAANAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwDsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T10:46:40.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Weather.razor",
               "DocumentMoniker": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "BlazorProjectClient\\Pages\\Weather.razor",
               "ToolTip": "D:\\Dot Net\\BlazorProject\\BlazorProjectClient\\Pages\\Weather.razor",
               "RelativeToolTip": "BlazorProjectClient\\Pages\\Weather.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADIAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-13T10:17:59.63Z",
               "EditorCaption": ""
